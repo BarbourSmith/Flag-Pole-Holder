@@ -192,31 +192,6 @@
             "unitsIndex": 0
         },
         {
-            "atomType": "Move",
-            "name": "Move",
-            "x": 0.38888888888888884,
-            "y": 0.5123456790123456,
-            "uniqueID": 865096,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "source/308302/653575Molecule"
-                },
-                {
-                    "name": "xDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": -40
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 100
-                }
-            ]
-        },
-        {
             "atomType": "Molecule",
             "name": "Upper",
             "x": 0.29034391534391535,
@@ -239,7 +214,7 @@
                         },
                         {
                             "name": "Rectangle height",
-                            "ioValue": 150
+                            "ioValue": 230
                         },
                         {
                             "name": "Rectangle width",
@@ -282,7 +257,7 @@
                     "ioValues": [
                         {
                             "name": "geometry2",
-                            "ioValue": "source/308302/653575/685484Assembly"
+                            "ioValue": "source/308302/653575/772881Move"
                         },
                         {
                             "name": "geometry1",
@@ -299,7 +274,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 3.5
+                            "ioValue": 4.5
                         }
                     ]
                 },
@@ -323,8 +298,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.4378306878306878,
-                    "y": 0.6944444444444444,
+                    "x": 0.4470899470899471,
+                    "y": 0.6728395061728395,
                     "uniqueID": 733091,
                     "ioValues": [
                         {
@@ -363,6 +338,23 @@
                     ]
                 },
                 {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 0.5813492063492063,
+                    "y": 0.6172839506172839,
+                    "uniqueID": 685484,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 1",
+                            "ioValue": "source/308302/653575/509901Move"
+                        },
+                        {
+                            "name": "3D shape 2",
+                            "ioValue": "source/308302/653575/733091Assembly"
+                        }
+                    ]
+                },
+                {
                     "atomType": "Tag",
                     "name": "Add Tag",
                     "x": 0.796957671957672,
@@ -380,19 +372,27 @@
                     ]
                 },
                 {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
-                    "x": 0.5734126984126984,
-                    "y": 0.7407407407407407,
-                    "uniqueID": 685484,
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.6600529100529101,
+                    "y": 0.6574074074074074,
+                    "uniqueID": 772881,
                     "ioValues": [
                         {
-                            "name": "3D shape 1",
-                            "ioValue": "source/308302/653575/509901Move"
+                            "name": "geometry",
+                            "ioValue": "source/308302/653575/685484Assembly"
                         },
                         {
-                            "name": "3D shape 2",
-                            "ioValue": "source/308302/653575/733091Assembly"
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": -40
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
                         }
                     ]
                 },
@@ -501,6 +501,13 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 685484,
+                    "ap2ID": 772881
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
                     "ap1ID": 304449,
@@ -510,7 +517,7 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry2",
                     "ap2Primary": false,
-                    "ap1ID": 685484,
+                    "ap1ID": 772881,
                     "ap2ID": 745223
                 },
                 {
@@ -524,6 +531,31 @@
             "fileTypeVersion": 1,
             "simplify": false,
             "unitsIndex": 0
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.39153439153439157,
+            "y": 0.5154320987654321,
+            "uniqueID": 865096,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "source/308302/653575Molecule"
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": -80
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 100
+                }
+            ]
         },
         {
             "atomType": "Assembly",
@@ -1248,18 +1280,18 @@
             "ap2ID": 802794
         },
         {
-            "ap1Name": "geometry",
-            "ap2Name": "3D shape 2",
-            "ap2Primary": false,
-            "ap1ID": 865096,
-            "ap2ID": 802794
-        },
-        {
             "ap1Name": "Geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": 653575,
             "ap2ID": 865096
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 2",
+            "ap2Primary": false,
+            "ap1ID": 865096,
+            "ap2ID": 802794
         },
         {
             "ap1Name": "geometry",
